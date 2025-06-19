@@ -2,7 +2,7 @@
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="grid items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <header className="text-2xl font-bold text-center">
         Yo wassup chat
       </header>
@@ -12,8 +12,13 @@ export default function Home() {
           Discover the best properties in Cebu with us. Whether you&apos;re looking for a cozy apartment or a luxurious villa, we have something for everyone.
         </p>
       </main>
-      <footer className="text-sm text-gray-500">
-        © 2023 Cebu Premiere Real Estate. All rights reserved.
+      <footer className="text-sm text-gray-500 flex flex-col items-center gap-2">
+        <span>
+          &copy; {new Date().getFullYear()} Cebu Premiere Real Estate. All rights reserved.
+        </span>
+        <span>
+          Made by Michael Flores
+        </span>
       </footer>
     </div>
   );
