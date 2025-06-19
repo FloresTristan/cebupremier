@@ -7,12 +7,12 @@ export default function Home() {
         Yo wassup chat
       </header>
       <main className="flex flex-col items-center justify-center">
-        <h1 className="text-4xl font-bold mb-4">Your Dream Home Awaits</h1>
+        <h1 className="text-4xl font-bold mb-4 text-center">Your Dream Home Awaits</h1>
         <p className="text-lg text-center max-w-2xl">
           Discover the best properties in Cebu with us. Whether you&apos;re looking for a cozy apartment or a luxurious villa, we have something for everyone.
         </p>
       </main>
-      <footer className="text-sm text-gray-500 flex flex-col items-center gap-2">
+      <footer className="text-sm text-gray-500 flex flex-col items-center text-center gap-2">
         <span>
           &copy; {new Date().getFullYear()} Cebu Premiere Real Estate. All rights reserved.
         </span>
