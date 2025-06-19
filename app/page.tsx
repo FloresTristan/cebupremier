@@ -12,14 +12,6 @@ export default function Home() {
           Discover the best properties in Cebu with us. Whether you&apos;re looking for a cozy apartment or a luxurious villa, we have something for everyone.
         </p>
       </main>
-      <footer className="text-sm text-gray-500 flex flex-col items-center text-center gap-2">
-        <span>
-          &copy; {new Date().getFullYear()} Cebu Premiere Real Estate. All rights reserved.
-        </span>
-        <span>
-          Made by Michael Flores
-        </span>
-      </footer>
     </div>
   );
 }
