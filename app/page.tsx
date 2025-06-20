@@ -1,6 +1,6 @@
 'use client';
 // import Image from "next/image";
-import { Parallax } from "react-scroll-parallax";
+// import { Parallax } from "react-scroll-parallax";
 
 export default function Home() {
   return (
