@@ -38,15 +38,33 @@ export default function NavBar() {
                     alt="Logo"
                     width={50}
                     height={50}
-                    className="rounded-full border-2 bg-white border-green-300"
+                    className="rounded-full border-2 bg-white border-green-600"
                     priority
                 />
                 <span className={`ml-2 text-xl font-[family-name:var(--font-geist-sans)] ${ isMobile ? 'hidden': '' } `}>Cebu Premiere Real Estate</span>
             </Link>
             <ul className="flex space-x-4 font-[family-name:var(--font-geist-sans)] ">
-                <li><Link href="/">Home</Link></li>
-                <li><Link href="/about">About</Link></li>
-                <li><Link href="/contact">Contact</Link></li>
+                <li>
+                    <Link
+                        href="/"
+                        className=" duration-300 ease-in-out border-2 border-transparent p-2 hover:border-blue-500 rounded-md ">
+                            Home
+                    </Link>
+                </li>
+                <li>
+                    <Link
+                        href="/about"
+                        className=" duration-300 ease-in-out border-2 border-transparent p-2 hover:border-blue-500 rounded-md ">
+                            About
+                    </Link>
+                </li>
+                <li>
+                    <Link
+                        href="/contact"
+                        className=" duration-300 ease-in-out border-2 border-transparent p-2 hover:border-blue-500 rounded-md ">
+                            Contact
+                    </Link>
+                </li>
             </ul>
         </nav>
     );

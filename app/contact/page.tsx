@@ -1,6 +1,6 @@
 export default function Contact(){
     return (
-        <div className="grid items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+        <div className="grid items-center justify-items-center min-h-screen gap-16 font-[family-name:var(--font-geist-sans)]">
             <header className="text-2xl font-bold text-center">
                 Contact Us
             </header>

@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, DM_Serif_Text } from "next/font/google";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import "./globals.css";
+import ParallaxEffect from "@/components/ParallaxEffect";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,7 +37,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${dmSerifText.variable} antialiased`}
       >
         <NavBar />
-        {children}
+        <ParallaxEffect>
+          {children}
+        </ParallaxEffect>
         <Footer />
       </body>
     </html>
