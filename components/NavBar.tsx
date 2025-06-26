@@ -46,21 +46,21 @@ export default function NavBar() {
             <ul className="flex space-x-4 font-[family-name:var(--font-geist-sans)] ">
                 <li>
                     <Link
-                        href="/"
+                        href="#home"
                         className=" duration-300 ease-in-out border-2 border-transparent p-2 hover:border-blue-500 rounded-md ">
                             Home
                     </Link>
                 </li>
                 <li>
                     <Link
-                        href="/about"
+                        href="#about"
                         className=" duration-300 ease-in-out border-2 border-transparent p-2 hover:border-blue-500 rounded-md ">
                             About
                     </Link>
                 </li>
                 <li>
                     <Link
-                        href="/contact"
+                        href="#contact"
                         className=" duration-300 ease-in-out border-2 border-transparent p-2 hover:border-blue-500 rounded-md ">
                             Contact
                     </Link>
