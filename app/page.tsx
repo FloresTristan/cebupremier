@@ -40,7 +40,7 @@ export default function Home() {
           </div>
           <div id="home" className="mx-auto max-w-7xl py-24 sm:py-32 px-6 lg:px-8 flex justify-center">
             <div className="mx-auto max-w-2xl lg:mx-0 text-center">
-              <h2 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Your Dream Home Awaits</h2>
+              <h2 className="text-5xl font-[family-name:var(--font-flatline)] font-semibold tracking-tight text-white sm:text-7xl">Your Dream Home Awaits</h2>
               <p className="mt-8 text-lg font-medium text-pretty text-gray-300 sm:text-xl/8">
                 Discover the best properties in Cebu with us. Whether you&apos;re looking for a cozy apartment or a luxurious villa, we have something for everyone.
               </p>
@@ -52,7 +52,7 @@ export default function Home() {
         <div id="about" className=" relative">
           <div className="mx-auto max-w-7xl py-24 sm:py-32 px-6 lg:px-8">
             <div className="mx-auto max-w-2xl lg:mx-0">
-              <h2 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">About Us.</h2>
+              <h2 className="text-5xl font-[family-name:var(--font-flatline)] font-semibold tracking-tight text-white sm:text-7xl">About Us.</h2>
               <p className="mt-8 text-lg font-medium text-pretty text-gray-300 sm:text-xl/8">
                 We are a dedicated team of real estate professionals committed to helping you find your dream home in Cebu. With years of experience and a passion for real estate, we strive to provide the best service possible.
               </p>
@@ -63,7 +63,7 @@ export default function Home() {
         <div id="contact" className=" relative">
           <div className="mx-auto max-w-7xl py-24 sm:py-32 px-6 lg:px-8">
             <div className="mx-auto max-w-2xl lg:mx-0">
-              <h2 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Get in touch.</h2>
+              <h2 className="text-5xl font-[family-name:var(--font-flatline)] font-semibold tracking-tight text-white sm:text-7xl">Get in touch.</h2>
               <p className="mt-8 text-lg font-medium text-pretty text-gray-300 sm:text-xl/8">
                 We would love to hear from you! Whether you have questions about our properties or need assistance, feel free to reach out to us.
               </p>

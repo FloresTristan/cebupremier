@@ -41,7 +41,7 @@ export default function NavBar() {
                     className="rounded-full border-2 bg-white border-green-600"
                     priority
                 />
-                <span className={`ml-2 text-xl font-[family-name:var(--font-geist-sans)] ${ isMobile ? 'hidden': '' } `}>Cebu Premiere Real Estate</span>
+                <span className={`ml-2 text-xl font-[family-name:var(--font-flatline)] tracking-wider font-semibold ${ isMobile ? 'hidden': '' } `}>CEBU PREMIERE REAL ESTATE</span>
             </Link>
             <ul className="flex space-x-4 font-[family-name:var(--font-geist-sans)] ">
                 <li>
