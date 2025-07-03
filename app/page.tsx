@@ -1,8 +1,14 @@
 'use client';
 import Image from "next/image";
+import Carousel from "@/components/Carousel";
 // import { Parallax } from "react-scroll-parallax";
 
 export default function Home() {
+  const slides = [
+    <div key={1}>div 1</div>,
+    <div key={2}>div 2</div>,
+    <div key={3}>div 3</div>
+  ]
   return (
     // <Parallax speed={10} className="parallax-container">
       <div className="relative grid min-h-screen isolate overflow-hidden bg-gray-900 ">
@@ -50,12 +56,15 @@ export default function Home() {
 
         {/* !---about---! */}
         <div id="about" className=" relative">
-          <div className="mx-auto max-w-7xl py-24 sm:py-32 px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl py-24 sm:py-32 px-6 sm:flex lg:px-8">
             <div className="mx-auto max-w-2xl lg:mx-0">
               <h2 className="text-5xl font-[family-name:var(--font-flatline)] font-semibold tracking-tight text-white sm:text-7xl">About Us.</h2>
               <p className="mt-8 text-lg font-medium text-pretty text-gray-300 sm:text-xl/8">
                 We are a dedicated team of real estate professionals committed to helping you find your dream home in Cebu. With years of experience and a passion for real estate, we strive to provide the best service possible.
               </p>
+            </div>
+            <div className="flex justify-center items-center w-full pt-5 sm:pt-0">
+              <Carousel slides={slides} className="rounded-lg text-white" />
             </div>
           </div>
         </div>
